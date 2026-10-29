@@ -488,8 +488,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,30mm_cqr,CQR 30mm,4,0.1,-1,,,,,,,,,500
 ,,45mm_cqr,CQR 45mm,6,0.15,-2,-1,,,,,,,,750
 ,cqr_gen2_stock,,,,,,,,,,,,,,
-,,hera_arms_cqr_gen2_stock,Eris Arms CQR Gen2,10,0.33,-7,-11,,,,,,,,1500
-,,hera_arms_cqr_gen2_buttpad,Eris Arms CQR Gen2 Extendable,1,0.05,-1,-1,,,,,,,,0
+,,hera_arms_cqr_gen2_stock,Eris Arms CQR Gen2,11,0.33,-8,-12,,,,,,,,1500
+,,hera_arms_cqr_gen2_buttpad,Eris Arms CQR Gen2 Extendable,,0.05,,,,,,,,,,0
 ,leupold_deltapoint_footprint,,,,,,,,,,,,,,
 ,,strauss_deltapoint_reflex_sight,Strauss DeltaPoint Reflex,-2,0.04,,,,,,,,,,800
 ,,strauss_deltapoint_pro_sight,Strauss DeltaPoint Pro,-2,0.05,,,,,,,,,,1200
@@ -673,7 +673,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,leopard_atg_model_15_fixed_a2_ar15_stock,ATG A2 fixed stock,11,0.44,-12,-18,,,,,,,,700
 ,,kf_416d_castlenut,KF416D,0,0.02,,,,,,,,,,0
 ,,kf_416a5_extended_castlenut,KF416A5 Extended,0.5,0.03,,,,,,,,,,100
-,,magtap_ubr_gen2_buffer,Magtap UBR GEN2,-1,0.14,-1,-2,,,,,,,,400
+,,magtap_ubr_gen2_buffer,Magtap UBR GEN2,,0.14,,,,,,,,,,400
 ,,hart_a2_buffer,Hart A2,-2,0.15,-1,-1,,,,,,,,300
 ,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR-15,3,0.08,7,10,,0.5,,,,,,250
 ,scr_stocks,,,,,,,,,,,,,,
@@ -696,9 +696,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hart_m4a1_receiver_endplate,Hart M4A1 Receiver Endplate,0,0.01,,,,,,,,,,0
 ,,thorsden_frs15_gen3_ar15_endplate,Thorsden FRS-15 Gen3 AR-15 Endplate,2,0.06,9,9,,0.55,,,,,,600
 ,,equinox_ex15_endplate,Arrow AX // 15 AR-15 Receiver Endplate,0,0.01,,,,,,,,,,0
-,,hart_607_car15_buffer_tube,Hart 607 CAR-15,-2,0.13,-1,-1,,,,,,,,500
-,,hart_607_car15_stock,Hart 607 CAR-15,16,0.23,-8,-14,,,,,,,,500
-,,talvern_m7a1_pdw_base_stock,Troy M7A1 PDW Base,-2,0.12,0,0,,,,,,,,1000
+,,hart_607_car15_buffer_tube,Hart 607 CAR-15,14,0.13,-9,-15,,,,,,,,500
+,,hart_607_car15_stock,Hart 607 CAR-15,,0.23,,,,,,,,,,500
+,,talvern_m7a1_pdw_base_stock,Troy M7A1 PDW Base,19,0.12,-6,-7,,,,,,,,1000
 ,ar15_pistol_grip,,,,,,,,,,,,,,
 ,,timber_creek_enforcer_pistol_grip,Lumber River Enforcer,4,0.07,-1,-7,,,,,,,,900
 ,,tactical_dynamics_anodized_skeletonized_ar15_pistol_grip,Tactical Dynamics Anodized Skeletonized AR-15,3,0.04,-3,-5,,,,,,,,700
@@ -2179,7 +2179,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416c_type_1_buttstock,KF416C Type 1,21,0.16,-7,-7,,,,,,,,250
 ,,kf_416c_type_2_buttstock,KF416C Type 2,22,0.19,-7,-7,,,,,,,,500
 ,hk_stock_extendable_part,,,,,,,,,,,,,,
-,,hk_g3a3_stock_extendable_part,KG-31a3 Stock Extendable Part,16,0.3,-7,-11,,,,,,,,0
+,,hk_g3a3_stock_extendable_part,KG-31a3 Stock Extendable Part,,0.3,,,,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,,
 ,,hk_g3_button_mag_release,KG-31 Button,0,0.01,,,,,,,,,,0
 ,hk_g3_charging_handle,,,,,,,,,,,,,,
@@ -2188,7 +2188,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_g3_cocking_support,KG-31 Cocking Support,0,0.02,,,,,,,,,,0
 ,hk_g3_endplate,,,,,,,,,,,,,,
 ,,hk_g3_endplate,KG-31 Endplate,0,0.1,,,,,,,,,,0
-,,hk_g3a3_stock_endplate,KG-31a3 Stock Endplate,0,0.14,,,,,,,,,,0
+,,hk_g3a3_stock_endplate,KG-31a3 Stock Endplate,16,0.14,-7,-11,,,,,,,,0
 ,hk_g3_fire_selector,,,,,,,,,,,,,,
 ,,hk_g3_fire_selector,KG-31 Fire Selector,0,0.02,,,,,,,,,,0
 ,hk_g3_front_sight_assembly,,,,,,,,,,,,,,
@@ -2223,14 +2223,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_g3_std_fixed_plastic_stock,KG-31 Standard Fixed Plastic,11,0.3,-12,-12,,,,,,,,0
 ,,haga_defense_hk_g3_acr_stock_adapter,HAGA Defense KG-31 ACR,0,0.05,0,0,,,,,,,,1000
 ,,ptr_hk_g3_milspec_ar15_buffer_tube_adapter,CTR KG-31 Milspec AR-15 Buffer Tube,-2,0.06,0,0,,,,,,,,1200
-,,spuhr_g3_r410_stock_assembly_adapter,Spuhr KG-31 R-410 Stock Assembly,-2,0.09,0,0,,,,,,,,1000
+,,spuhr_g3_r410_stock_assembly_adapter,Spuhr KG-31 R-410 Stock Assembly,12,0.09,-10,-15,,,,,,,,1000
 ,hk_psg1_stock_assembly,,,,,,,,,,,,,,
 ,,hk_psg1_stock_buttpad,SKG-31 Stock,,0.07,,,,,,,,,,0
 ,,hk_psg1_stock_cheek_rest,SKG-31 Stock,,0.08,,,,,,,,,,0
 ,,hk_psg1_stock_base,Sniper SKG-31 Version 2,20,0.35,-4,-6,,-0.05,,,,,,2000
 ,spuhr_stock,,,,,,,,,,,,,,
-,,spuhr_g3_r410_stock_assembly_stock,Spuhr KG-31 R-410,12,0.25,-10,-15,,,,,,,,0
-,,spuhr_g3_r410_stock_assembly_cheek_pad,Spuhr KG-31 R-410 Stock Assembly,2,0.04,,,,,,,,,,0
+,,spuhr_g3_r410_stock_assembly_stock,Spuhr KG-31 R-410,,0.25,,,,,,,,,,0
+,,spuhr_g3_r410_stock_assembly_cheek_pad,Spuhr KG-31 R-410 Stock Assembly,,0.04,,,,,,,,,,0
 ,hk_psg1_plunger,,,,,,,,,,,,,,
 ,,hk_psg1_fa_plunger,SKG-31 Receiver Bolt FA,0,0.01,0,0,,,,,,,,0
 ,hk_pattern_front_sight,,,,,,,,,,,,,,
@@ -2600,7 +2600,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sg58_std_fire_selector,RSA SG58,0,0.04,,,,,,,,,,0
 ,sa58_folding_stock,,,,,,,,,,,,,,
 ,,rsa_sg58_metric_para_folding_stock,RSA SG58 Metric Para Folding,13,0.32,-7,-11,,,,,,,,500
-,,rsa_metric_para_buffer_tube_adapter,RSA Para Metric Buffer Tube,-3,0.05,1,2,,0.05,,,,,,1000
+,,rsa_metric_para_buffer_tube_adapter,RSA Para Metric Buffer Tube,-3,0.05,1,2,,,,,,,,1000
 ,,rsa_sg58_folding_spr_para_stock_body,RSA SG58 Folding Para SPR,15,0.26,-10,-7,,-0.05,,,,,,3000
 ,,rsa_sg58_folding_spr_para_stock_extendable_part,RSA SG58 Folding Para SPR,,0.04,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_buttpad_mount,RSA SG58 Folding Para SPR,,0.03,,,,,,,,,,0
@@ -2807,9 +2807,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tb_7,Thunder Beast Ultra 7,-3,0.15,-15,-14,,-0.08,0.06,60,,,-0.15,1300
 ,,tb_9,Thunder Beast Ultra 9,-5,0.18,-17,-14,,-0.12,0.08,70,,,-0.19,1400
 ,troy_m7a1_pdw_extendable_stock,,,,,,,,,,,,,,
-,,talvern_m7a1_pdw_extendable_stock,Troy M7A1 PDW Extendable,21,0.15,-6,-7,,,,,,,,800
+,,talvern_m7a1_pdw_extendable_stock,Troy M7A1 PDW Extendable,,0.15,,,,,,,,,,800
 ,ubr_stock,,,,,,,,,,,,,,
-,,ubr_gen2_stock,Magtap UBR GEN2,14,0.29,-14,-8,,,,,,,,700
+,,ubr_gen2_stock,Magtap UBR GEN2,13,0.29,-15,-10,,,,,,,,700
 ,unity_fast_30mm_offset_mount,,,,,,,,,,,,,,
 ,,harmony_fast_offset_optic_base,Harmony Fast LPVO Offset,-0.5,0.05,,,,,,,,,,200
 ,unity_offset_base_adapter,,,,,,,,,,,,,,
